@@ -11,15 +11,53 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+The proposed idea is to develop a Smart Railway Station Navigation System that helps passengers easily find platforms, ticket counters, restrooms, food courts, waiting halls, lifts, and other facilities inside railway stations.
 
+The system provides interactive 2D/3D maps, step-by-step directions, voice-guided navigation, and real-time updates. Passengers can access it through a mobile application or touchscreen kiosks installed at railway stations. Special accessibility features support visually impaired passengers, senior citizens, and people with disabilities.
+
+The system can also help railway staff update facility locations and provide information about platform changes or temporary closures. By reducing confusion and unnecessary movement, the solution aims to improve passenger convenience, accessibility, and crowd management.
 
 ## Proposed Solution / Architecture Diagram
 
 
 ## Use Cases
+1.Finding Platforms: Passengers search for a platform number and receive directions from their current location.
+
+2.Locating Facilities: Users find ticket counters, restrooms, drinking water, food courts, waiting halls, and enquiry counters.
+
+3.Voice-Guided Navigation: Visually impaired passengers receive spoken directions to their destinations.
+
+4.Accessible Routes: Senior citizens and passengers with disabilities can find routes using ramps, lifts, and accessible pathways.
+
+5.Digital Kiosk Navigation: Tourists and passengers without the application can use touchscreen kiosks to locate station facilities.
+
+6.Real-Time Platform Updates: Passengers receive updated directions when platform assignments or accessible routes change.
+
+7.Multilingual Support: Users can select their preferred language to understand navigation instructions.
+
+8.Railway Staff Management: Authorized staff update facility information, report temporary closures, and maintain station maps.
 
 
 ## Technology Stack
+1. Mobile App: Flutter
+2. Frontend: HTML, CSS, JavaScript, React.js
+3. Backend: Node.js, Express.js
+4. Database: PostgreSQL
+5. Maps: Leaflet, OpenStreetMap
+6. Route Calculation: Dijkstra’s Algorithm
+7. Voice Navigation: Text-to-Speech (TTS)
+8. Real-Time Updates: WebSockets
+9. Cloud Hosting: AWS
+10. Version Control: Git, GitHub
 
 
 ## Dependencies
+1.Station Map Data: Accurate indoor maps showing platforms, entrances, exits, stairs, lifts, and other facilities.
+
+2.Railway Information Access: Permission to access relevant railway information, including platform changes, train schedules, and service updates.
+
+3.Location Identification: Suitable indoor positioning methods, such as QR codes, Bluetooth beacons, or Wi-Fi-based positioning, because GPS may not work reliably inside stations.
+
+4.Real-Time Data Feeds: Reliable updates about platform changes, facility closures, and route restrictions.
+
+5.Cloud and Network Connectivity: Hosting and communication infrastructure for mobile applications, kiosks, and staff dashboards.
