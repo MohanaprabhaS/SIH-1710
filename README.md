@@ -18,8 +18,7 @@ The system provides interactive 2D/3D maps, step-by-step directions, voice-guide
 The system can also help railway staff update facility locations and provide information about platform changes or temporary closures. By reducing confusion and unnecessary movement, the solution aims to improve passenger convenience, accessibility, and crowd management.
 
 ## Proposed Solution / Architecture Diagram
-
-
+![Proposed Solution Architecture](sih.png)
 ## Use Cases
 1.Finding Platforms: Passengers search for a platform number and receive directions from their current location.
 
